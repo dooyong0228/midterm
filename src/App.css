@@ -1,0 +1,97 @@
+@import url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff');
+
+body {
+  line-height: 1.5;
+  font-weight: 100;
+  margin-left : 100px;
+  margin-right : 100px;
+  background-color: rgb(255, 255, 255);
+  color : black;
+  }
+
+header {
+  color : rgb(0, 0, 0) ;
+  font-family : 'Pretendard-Regular';
+  border-bottom: 1px solid gray;
+  text-align: center;
+  font-weight: 500;
+}
+
+.container {
+  font-family: 'Pretendard-Regular';
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+  row-gap: 10px;
+  column-gap: 10px;
+  font-weight: 500;
+}
+
+nav {
+  border-right: 1px solid gray;
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+main {
+  font-size: 15px;
+  font-weight: 500;
+
+}
+
+main:hover {
+  background-color: orange;
+}
+
+article {
+  margin: 10px;
+  font-size: 15px;
+  border-left: 1px solid gray;
+  font-weight: 500;
+}
+
+footer {
+  font-family: 'Pretendard-Regular';
+  text-align: center;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin: 10px;
+  font-weight: 500;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  background-color: orange;
+  color: white;
+}
+
+table {
+  border: 1px dotted blue;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td {
+    border: 1px dotted blue;
+    padding: 10px;
+}
+
+input[type="text"] {
+  border: 1px dotted orange;
+  border-radius: 2px;
+  width: 30%;
+}
+input[type="password"] {
+  border: 1px dotted orange;
+  border-radius: 2px;
+  width: 30%;
+}
+
+input[type="password"]:focus { 
+  background-color: #ffff00; 
+}
